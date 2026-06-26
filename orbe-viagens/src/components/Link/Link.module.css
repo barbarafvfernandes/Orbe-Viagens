@@ -4,13 +4,13 @@
   width: fit-content;
   margin: 2rem auto;
   padding: 0.5rem 0.8rem;
-  background-color: #7065ea;
-  color: white;
+  background-color: #f8f83b;
+  color: #020202;
   text-decoration: none;
   border-radius: 0.5rem;
   font-weight: 600;
 }
 
 .linkButton:hover {
-  background-color: #9087f4;
+  background-color: #e5ff26;
 }
