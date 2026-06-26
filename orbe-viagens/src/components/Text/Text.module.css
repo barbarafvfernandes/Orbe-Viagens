@@ -1,0 +1,17 @@
+.text {
+    white-space: pre-line;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    color: var(--foreground);
+
+    width: min(100%, 50rem);
+    /* não passa de 800px */
+    margin: 1rem auto;
+    /* centraliza */
+    padding: 1rem 1.5rem;
+    /* espaço interno nas laterais */
+    background-color: #f0f0f0;
+    /* fundo diferente do resto */
+    box-shadow: 0 0 0 1px #ddd;
+    border-radius: 0.5rem;
+}
