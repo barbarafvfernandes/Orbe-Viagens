@@ -1,0 +1,33 @@
+.detalhes{
+    padding: 40px;
+    max-width: 960px;
+    margin: auto;
+}
+
+.detalhes__container{
+    display: flex;
+    gap: 32px;
+    background-color: #d8d219;
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.detalhes__image{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.detalhes__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.detalhes__voltar{
+    display: block;
+    text-align: center;
+    margin-bottom: 16px;
+    font-weight: bold;
+}

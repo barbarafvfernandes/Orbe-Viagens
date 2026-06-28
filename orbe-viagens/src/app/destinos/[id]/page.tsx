@@ -1,6 +1,7 @@
 import { destinos } from "@/lib/destinos";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import styles from "./detalheFilme.module.css";
 
 type Props = {
   params: Promise<{
@@ -20,17 +21,19 @@ const DestinoDetalhes = async ({ params }: Props) => {
 
   return (
     <>
-      <div>
-        <Link href="/destinos/">voltar</Link>
+      <div className={styles.detalhes}>
+        <div className={styles.detalhes__container}>
+        <Link className={styles.detalhes__voltar} href="/destinos/">voltar</Link>
         <section>
           <figure>
-            <img src={imagem} alt={`poster destino: ${nome}`}/>
+            <img className={styles.detalhes__image} src={imagem} alt={`poster destino: ${nome}`}/>
           </figure>
-          <article>
+          <article className={styles.detalhes__info}>
             <h2>{nome}</h2>
             <p>{descricao}</p>
           </article>
         </section>
+        </div>
       </div>
     </>
   );
